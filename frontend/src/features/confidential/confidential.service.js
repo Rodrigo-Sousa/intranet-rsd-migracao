@@ -1,5 +1,6 @@
-import api from '../../services/api'
+import api from "../../services/api";
 
-export function sendMessage(data) {
-  return api.post('/confidential', data)
+export async function sendMessage(data) {
+  const response = await api.post("/confidential", data);
+  return response.data;
 }

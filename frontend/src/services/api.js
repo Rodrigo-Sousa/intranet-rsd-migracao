@@ -1,13 +1,7 @@
-export async function sendConfidentialMessage(data) {
-    const response = await fetch('http://localhost:333/confidential', {
-        method: 'POST',
-        headers: {'Content-Type': 'application/json'},
-        body: JSON.stringify(data)
-    });
+import axios from "axios";
 
-    if(!response.ok){
-        throw new Error('Erro ao enviar mensagem');
-    }
+const api = axios.create({
+  baseURL: "http://localhost:3000/api",
+});
 
-    return response.json();
-}
+export default api;
