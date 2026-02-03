@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { birthdays } from "./birthdays.data";
+import { birthdays } from "./bithdays.data";
 import BirthdayCard from "./BirthdayCard";
 
 export default function BirthdaySection() {
