@@ -79,3 +79,19 @@ Com essa estilização temos alguns pontos fortes:
 - Evitando componentes gigantes
 - Evitando Códigos duplicados
 - Evitando bagunça quando o sistema crescer
+
+## Estrutura de migração - index.php -> React
+
+O que será realizado: 
+
+**index.php**|React|
+---|---|
+`<header>`|`components/Header.jsx`
+Navbar + dropdowns|`components/Navbar.jsx`
+Carousel|`components/HeroCarousel.jsx`
+Área serviços|`components/ServiceSessions.jsx`
+Valores (Missão, Visão,...)|`components/ValuesSections.jsx`
+Aniversariantes|`features/birthdays/*`
+Canal Confidencial|`features/confidential/*`
+Footer|`components/Footer.jsx`
+Página inteira|`pages/Home.jsx/*`
