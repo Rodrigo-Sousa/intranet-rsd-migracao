@@ -20,3 +20,8 @@ Utilizando a ferramenta _Trello_ para acompanhar as etapas de entrega do projeto
 
 ## Planejamento
 
+1. Separar front e back em dois projetos.
+2. Front: React com componentização, Talwind para estilos.
+3. Back: Node.js + Nest.js, API REST.
+4. Persistência: PostgreSQL auxiliando o Canal Confidencial.
+5. Boas práticas: organização em camadas (routes -> controllers -> services -> repositories), validação, autenticação, logs, teste, CI.
