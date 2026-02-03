@@ -1,4 +1,4 @@
-import MainLayout from "./layouts/MainLayouts";
+import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 
 export default function App(){

@@ -95,3 +95,14 @@ Aniversariantes|`features/birthdays/*`
 Canal Confidencial|`features/confidential/*`
 Footer|`components/Footer.jsx`
 Página inteira|`pages/Home.jsx/*`
+
+---
+
+## Instalando o Tailwind CSS
+
+Instalado uma única vez, e podendo ser utilizado em todo o projeto
+
+```bash
+npm install -D tailwindcss postcss autoprefixer
+ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```

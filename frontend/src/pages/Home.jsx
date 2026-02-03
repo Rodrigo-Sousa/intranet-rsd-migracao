@@ -1,8 +1,17 @@
-export default function Home(){
-    return(
-        <div>
-            <h1>Bem-vindo à Intranet</h1>
-            <p>Selecione uma opção no menu lateral.</p>
-        </div>
-    )
+import HeroCarousel from '../components/HeroCarousel'
+import ServicesSection from '../components/ServicesSection'
+import ValuesSection from '../components/ValuesSection'
+import BirthdaySection from '../features/birthdays/BirthdaySection'
+import ConfidentialForm from '../features/confidential/ConfidentialForm'
+
+export default function Home() {
+  return (
+    <>
+      <HeroCarousel />
+      <ServicesSection />
+      <ValuesSection />
+      <BirthdaySection />
+      <ConfidentialForm />
+    </>
+  )
 }
