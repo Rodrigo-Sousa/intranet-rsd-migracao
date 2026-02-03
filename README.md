@@ -17,3 +17,6 @@ Descrever e demostrar _passo a passo_ na migração do repositório **intranet-r
 Utilizando a ferramenta _Trello_ para acompanhar as etapas de entrega do projeto, com a descrição do que será feito em cada etapa.
 
 ![trello-atividades](./img/01-trello-estruturas-atividades.png)
+
+## Planejamento
+
