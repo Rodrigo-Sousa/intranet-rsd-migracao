@@ -39,26 +39,37 @@ Arquitetura por responsabilidades + features (regras específicas - recursos)
 ```arduino
 
 src\
-    assets\ #imagens, ícones, logos
-    components\ # componentes reutilizáveis (Button, Card, etc)
-    layout\ #estrutura da página
+    assets/ #imagens, ícones, logos
+        banners/
+        niver/
+        logo.png
+
+    components/ # componentes reutilizáveis (Button, Card, etc)
         Header.jsx
-        Sidebar.jsx
+        Footer.jsx
+        Carousel.jsx
+        ServicesArea.jsx
+        ValueArea.jsx
+    
+    features/
+        birthdays/
+            BirthdaySections.jsx
+            BirthdayFilter.jsx
+            BirthdaysCard.jsx
+            birthdays.data.js
+        confidencital/
+            ConfidentialForms.jsx
+            useConfidentialForms.js
+    
+    layout/
         MainLayout.jsx
-    pages\ # páginas (rotas)
-        Home.jsx
-        CanalConfidencial.jsx
-    features\ # regras específicas
-        canal/
-            ChannelList.jsx
-            ChannelItem.jsx
-            MessageList.jsx
-            MessageItem.jsx
-            MessageComposer.jsx
-    services/ # comunicação com API 
+    
+    services/
         api.js
-    hooks/ # hooks reutilizáveis
-    styles / #estilos globais (temporário)
+
+    pages/
+        Home.jsx
+
     App.jsx
     main.jsx
 
